@@ -56,19 +56,23 @@ nav {
     border-bottom:3px solid #ABAE58 ;
 }
 
+.logo-olive {
+    padding-left:40px ;
+}
+
 nav ul {
     display: flex;
 }
 
 nav ul li {
-    padding: 30px;
+    padding: 50px;
     list-style: none;
     
 }
 
 nav ul li a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     color: rgb(255, 255, 255);
     
 }
@@ -225,6 +229,12 @@ nav ul li a {
         
     }
 
+    .cards2{
+        background-color: #58623F;
+        padding: 40px;
+        height: 3945px;
+    }
+
     h1{
         letter-spacing: 5px;
         font-size: 56px;
@@ -347,10 +357,9 @@ nav ul li a {
         justify-content:  center;
     }
 
-    /* .contact-pic2{
-        padding-left: 300px;
-        padding-bottom: 400px;
-    } */
+    .contact-pic2{
+        cursor: pointer;
+    }
 
     .footer-information{
         display: flex;
