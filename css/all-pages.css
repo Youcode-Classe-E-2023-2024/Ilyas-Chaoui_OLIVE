@@ -124,19 +124,44 @@ nav ul li a {
 .panier-btn{
     display: flex;
     flex-direction: row;
-    border: 1px solid white;
-    background-color: white;
+    border: none;
+    border: 3px solid white ;
+    backdrop-filter: blur(5px);
     border-radius: 15.6px;
     width: 163px;
     height: 39px;
     margin-right: 10px;
-
     align-items:center ;
     justify-content: center;
 }
 
+.panier-btn:hover{
+    font-size: 20px;
+    width: 193px;
+    height: 49px;
+    animation: panier-btn 1s linear infinite ;
+    transition-duration: 1s;
+    transition-delay: 1ms;
+}
+
+
+@keyframes panier-btn{
+    0%{
+        color: rgb(255, 255, 255);
+        text-shadow: 0 0 10px #ffffff,
+    }
+    10%,20%,30%,40%,50%,60%,70%,80%,90%,100%{
+        color: rgb(255, 255, 255);
+        text-shadow: 0 0 10px #ffffff,
+        0 0 10px #ffffff,
+        0 0 10px #ffff,
+        0 0 10px #ffff,
+        0 0 10px #ffff;
+    }
+}
+
 .panier-btn a{
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding-left: 15px;
     padding-top: 8px;
@@ -145,26 +170,44 @@ nav ul li a {
 .login-btn{
     display: flex;
     flex-direction: row;
-    border: 1px solid white;
-    background-color: white;
+    border: 3px solid white;
     border-radius: 15.6px;
     width: 114px;
     height: 39px;
-
     align-items:center ;
     justify-content: center;
 }
+
+.login-btn:hover{
+    font-size: 20px; 
+    width: 153px;
+    height: 49px;
+    animation: login-btn 1s linear infinite ;
+    transition-duration: 1s;
+    transition-delay: 1ms;
+}
+
+
+@keyframes login-btn{
+    0%{
+        color: rgb(255, 255, 255);
+        text-shadow: 0 0 10px #ffffff,
+    }
+    10%,20%,30%,40%,50%,60%,70%,80%,90%,100%{
+        color: rgb(255, 255, 255);
+        text-shadow: 0 0 10px #ffffff,
+        0 0 10px #ffffff,
+        0 0 10px #ffff,
+        0 0 10px #ffff,
+        0 0 10px #ffff;
+    }
+}
 .login-btn a{
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding-left: 13px;
     padding-top: 8px;
 }
-
-/* .sentence{
-    color: aliceblue;
-} */
-
 
 .description{
     margin-top: 70px;
