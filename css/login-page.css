@@ -22,8 +22,7 @@ body{
     border-radius: 8px;
     color: #F3EFBF;;
     padding: 70px 20px;
-    overflow: hidden;
-    
+    overflow: hidden;   
 }
 
 .login-page{
@@ -170,7 +169,6 @@ body{
     transition-duration: 1s;
     transition-delay: 0.6ms;
     background-color: rgb(220, 220, 159) !important;
-
 }
 
 .wrapper .click-btn .login-btn{
