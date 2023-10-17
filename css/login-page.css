@@ -211,6 +211,10 @@ body{
     color: #F3EFBF;
 }
 
+::placeholder {
+    color: #F3EFBF;
+    opacity: 0.5;
+}
 
 
 
